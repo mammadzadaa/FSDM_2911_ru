@@ -1,0 +1,13 @@
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\bin\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.exe
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\bin\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.deps.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\bin\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\bin\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\bin\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\bin\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\obj\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\obj\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\obj\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\obj\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\obj\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\obj\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_02_09_20_Arrays_Strings\obj\Debug\netcoreapp3.1\Lesson_02_09_20_Arrays_Strings.genruntimeconfig.cache
