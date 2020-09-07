@@ -1,0 +1,13 @@
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\bin\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.exe
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\bin\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.deps.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\bin\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\bin\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\bin\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\bin\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\obj\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\obj\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\obj\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\obj\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\obj\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\obj\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_07_09_20_Exception\obj\Debug\netcoreapp3.1\Lesson_07_09_20_Exception.genruntimeconfig.cache
