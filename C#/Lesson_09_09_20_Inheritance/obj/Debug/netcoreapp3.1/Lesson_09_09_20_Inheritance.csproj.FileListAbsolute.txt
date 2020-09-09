@@ -1,0 +1,13 @@
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\bin\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.exe
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\bin\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.deps.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\bin\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\bin\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\bin\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\bin\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\obj\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\obj\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\obj\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\obj\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\obj\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\obj\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_09_09_20_Inheritance\obj\Debug\netcoreapp3.1\Lesson_09_09_20_Inheritance.genruntimeconfig.cache
