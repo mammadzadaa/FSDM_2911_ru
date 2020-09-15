@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfPerson xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Person>
+    <Name>Aftandil</Name>
+    <Surname>Mammadov</Surname>
+    <Age>35</Age>
+  </Person>
+  <Person>
+    <Name>Israfil</Name>
+    <Surname>Haciyev</Surname>
+    <Age>45</Age>
+  </Person>
+  <Person>
+    <Name>Memmed</Name>
+    <Surname>Quliyev</Surname>
+    <Age>37</Age>
+  </Person>
+  <Person>
+    <Name>Ahmad</Name>
+    <Surname>Ibrahimov</Surname>
+    <Age>29</Age>
+  </Person>
+</ArrayOfPerson>
