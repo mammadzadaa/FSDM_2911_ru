@@ -1,0 +1,13 @@
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\bin\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.exe
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\bin\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.deps.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\bin\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\bin\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\bin\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\bin\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\obj\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\obj\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\obj\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\obj\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\obj\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\obj\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_21_09_20_Collections\obj\Debug\netcoreapp3.1\Lesson_21_09_20_Collections.genruntimeconfig.cache
