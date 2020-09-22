@@ -1,0 +1,16 @@
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\bin\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.exe
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\bin\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.deps.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\bin\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\bin\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\bin\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\bin\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\obj\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\obj\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\obj\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\obj\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\obj\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\obj\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.genruntimeconfig.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\bin\Debug\netcoreapp3.1\Data.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\obj\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_22_09_20_LINQ\obj\Debug\netcoreapp3.1\Lesson_22_09_20_LINQ.csproj.CopyComplete

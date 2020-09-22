@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "byQawZnRisoxIobMKKuCH6w7RYqjEA9ZcKEYFut518BTNMbWronBRsn1vLYeLDiXIa6Es81GU2GYVmcE3CxIiA==",
+  "success": true,
+  "projectFilePath": "C:\\Qt\\Projects\\FSDM_2911_ru\\C#\\Lesson_22_09_20_LINQ\\Lesson_22_09_20_LINQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aqil\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
