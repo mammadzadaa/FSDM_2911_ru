@@ -70,6 +70,19 @@ namespace Lesson_23_09_20_LINQ_2
 
             var people = JsonConvert.DeserializeObject<List<Person>>(str);
 
+
+            //var newList = from x in people
+            //              where x.Country == "Russia"
+            //              select x;
+
+                                
+                         
+            //var newList = people.Where(x => x.Country == "Russia");
+
+            //foreach (var item in newList)
+            //{
+            //    Console.WriteLine(item);
+            //}
            
             
             // Concat, Distinct, Except, Intersec, Union

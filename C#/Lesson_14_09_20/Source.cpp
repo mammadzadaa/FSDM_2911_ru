@@ -1,3 +1,4 @@
+#include <iostream>
 
 
 class Abstract
@@ -26,9 +27,14 @@ void foo(T val)
 
 int main()
 {
-	Abstract a;
-	Inheritated i;
+	//Abstract a;
+	//Inheritated i;
 
+	int* ptr = new int[10]{};
+	ptr[0] = 1;
+	ptr[1] = 54;
+	ptr[5] = 3;
+	std::cin.get();
 
 	return 0;
 }

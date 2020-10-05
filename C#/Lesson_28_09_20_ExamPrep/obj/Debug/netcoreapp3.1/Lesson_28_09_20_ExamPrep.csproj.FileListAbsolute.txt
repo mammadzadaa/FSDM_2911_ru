@@ -1,0 +1,16 @@
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\bin\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.exe
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\bin\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.deps.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\bin\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\bin\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\bin\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\bin\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\bin\Debug\netcoreapp3.1\MyLib.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\bin\Debug\netcoreapp3.1\MyLib.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\obj\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\obj\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\obj\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\obj\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\obj\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.csproj.CopyComplete
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\obj\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.dll
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\obj\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.pdb
+C:\Qt\Projects\FSDM_2911_ru\C#\Lesson_28_09_20_ExamPrep\obj\Debug\netcoreapp3.1\Lesson_28_09_20_ExamPrep.genruntimeconfig.cache

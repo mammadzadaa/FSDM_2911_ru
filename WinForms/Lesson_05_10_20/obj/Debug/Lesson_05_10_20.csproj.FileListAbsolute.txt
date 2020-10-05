@@ -1,0 +1,10 @@
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\bin\Debug\Lesson_05_10_20.exe.config
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\bin\Debug\Lesson_05_10_20.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\bin\Debug\Lesson_05_10_20.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\obj\Debug\Lesson_05_10_20.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\obj\Debug\Lesson_05_10_20.Properties.Resources.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\obj\Debug\Lesson_05_10_20.csproj.GenerateResource.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\obj\Debug\Lesson_05_10_20.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\obj\Debug\Lesson_05_10_20.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\obj\Debug\Lesson_05_10_20.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_05_10_20\obj\Debug\Lesson_05_10_20.MyForm.resources
