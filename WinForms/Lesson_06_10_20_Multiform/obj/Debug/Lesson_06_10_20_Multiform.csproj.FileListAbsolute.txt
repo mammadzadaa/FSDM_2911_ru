@@ -1,0 +1,12 @@
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\bin\Debug\Lesson_06_10_20_Multiform.exe.config
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\bin\Debug\Lesson_06_10_20_Multiform.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\bin\Debug\Lesson_06_10_20_Multiform.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.Properties.Resources.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.csproj.GenerateResource.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.MainForm.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.ViewForm.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_06_10_20_Multiform\obj\Debug\Lesson_06_10_20_Multiform.AddForm.resources
