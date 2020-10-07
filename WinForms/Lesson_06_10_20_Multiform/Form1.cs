@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,22 +15,12 @@ namespace Lesson_06_10_20_Multiform
     public partial class MainForm : Form
     {
        
-        private List<Person> people = new List<Person>();
+        private List<Person> people;
         public MainForm()
         {
             InitializeComponent();
-            people.Add(new Person() { Name = "Aftandil", Surname = "Mammadov", DateOfBirth = new DateTime(1982, 1, 12),
-                Gender = Gender.Male, Number = "(055)5555555", Email = "afti@gmail.com", Favorite = true });
-            people.Add(new Person()
-            {
-                Name = "Xuraman",
-                Surname = "Abbasova",
-                DateOfBirth = new DateTime(1990, 11, 19),
-                Gender = Gender.Female,
-                Number = "(055)5553554",
-                Email = "xurush@gmail.com",
-                Favorite = false
-            });
+
+            people = JsonConvert.DeserializeObject<List<Person>>(File.ReadAllText("data.json"));
             personListBox.Items.AddRange(people.ToArray());
         }
 
@@ -43,6 +35,12 @@ namespace Lesson_06_10_20_Multiform
                 //MessageBox.Show($"{selectedPerson.Name} {selectedPerson.Surname}" +
                 //    $"\n{selectedPerson.Number}\n{selectedPerson.Email}", "Info",MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+        }
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            File.WriteAllText("data.json", JsonConvert.SerializeObject(people));             
+            base.OnClosing(e);
         }
 
         private void addButton_Click(object sender, EventArgs e)
@@ -60,7 +58,24 @@ namespace Lesson_06_10_20_Multiform
             //people.Add(addedPerson);
             //personListBox.Items.Add(addedPerson);
         }
-        
-  
+
+        private void editButton_Click(object sender, EventArgs e)
+        {
+            Person selectedPerson = personListBox.SelectedItem as Person;
+            if (selectedPerson != null)
+            {
+                AddForm editForm = new AddForm(selectedPerson);
+                var result = editForm.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                    var index = personListBox.SelectedIndex;
+                    people.RemoveAt(index);
+                    people.Insert(index, editForm.Person);
+                    personListBox.Items.RemoveAt(index);
+                    personListBox.Items.Insert(index, editForm.Person);
+                }
+            }
+
+        }
     }
 }

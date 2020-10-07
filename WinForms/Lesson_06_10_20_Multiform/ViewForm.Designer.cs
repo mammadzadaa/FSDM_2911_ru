@@ -38,6 +38,8 @@
             this.infoLabel = new System.Windows.Forms.Label();
             this.favoriteLabel = new System.Windows.Forms.Label();
             this.closeButton = new System.Windows.Forms.Button();
+            this.personPictureBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.personPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // nameLabel
@@ -118,7 +120,7 @@
             // 
             this.favoriteLabel.AutoSize = true;
             this.favoriteLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.favoriteLabel.Location = new System.Drawing.Point(446, 95);
+            this.favoriteLabel.Location = new System.Drawing.Point(514, 14);
             this.favoriteLabel.Name = "favoriteLabel";
             this.favoriteLabel.Size = new System.Drawing.Size(73, 69);
             this.favoriteLabel.TabIndex = 8;
@@ -136,11 +138,21 @@
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
+            // personPictureBox
+            // 
+            this.personPictureBox.Location = new System.Drawing.Point(317, 96);
+            this.personPictureBox.Name = "personPictureBox";
+            this.personPictureBox.Size = new System.Drawing.Size(270, 296);
+            this.personPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.personPictureBox.TabIndex = 10;
+            this.personPictureBox.TabStop = false;
+            // 
             // ViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(528, 547);
+            this.ClientSize = new System.Drawing.Size(601, 547);
+            this.Controls.Add(this.personPictureBox);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.favoriteLabel);
             this.Controls.Add(this.infoLabel);
@@ -156,6 +168,7 @@
             this.MinimizeBox = false;
             this.Name = "ViewForm";
             this.Text = "ViewForm";
+            ((System.ComponentModel.ISupportInitialize)(this.personPictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -173,5 +186,6 @@
         private System.Windows.Forms.Label infoLabel;
         private System.Windows.Forms.Label favoriteLabel;
         private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.PictureBox personPictureBox;
     }
 }

@@ -31,14 +31,15 @@
             this.viewButton = new System.Windows.Forms.Button();
             this.addButton = new System.Windows.Forms.Button();
             this.personListBox = new System.Windows.Forms.ListBox();
+            this.editButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // viewButton
             // 
             this.viewButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.viewButton.Location = new System.Drawing.Point(50, 502);
+            this.viewButton.Location = new System.Drawing.Point(29, 477);
             this.viewButton.Name = "viewButton";
-            this.viewButton.Size = new System.Drawing.Size(217, 90);
+            this.viewButton.Size = new System.Drawing.Size(578, 61);
             this.viewButton.TabIndex = 1;
             this.viewButton.Text = "View";
             this.viewButton.UseVisualStyleBackColor = true;
@@ -47,9 +48,9 @@
             // addButton
             // 
             this.addButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.addButton.Location = new System.Drawing.Point(378, 502);
+            this.addButton.Location = new System.Drawing.Point(29, 569);
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(217, 90);
+            this.addButton.Size = new System.Drawing.Size(217, 63);
             this.addButton.TabIndex = 2;
             this.addButton.Text = "Add";
             this.addButton.UseMnemonic = false;
@@ -66,11 +67,24 @@
             this.personListBox.Size = new System.Drawing.Size(578, 420);
             this.personListBox.TabIndex = 3;
             // 
+            // editButton
+            // 
+            this.editButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.editButton.Location = new System.Drawing.Point(390, 569);
+            this.editButton.Name = "editButton";
+            this.editButton.Size = new System.Drawing.Size(217, 63);
+            this.editButton.TabIndex = 4;
+            this.editButton.Text = "Edit";
+            this.editButton.UseMnemonic = false;
+            this.editButton.UseVisualStyleBackColor = true;
+            this.editButton.Click += new System.EventHandler(this.editButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(638, 637);
+            this.ClientSize = new System.Drawing.Size(638, 696);
+            this.Controls.Add(this.editButton);
             this.Controls.Add(this.personListBox);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.viewButton);
@@ -86,6 +100,7 @@
         private System.Windows.Forms.Button viewButton;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.ListBox personListBox;
+        private System.Windows.Forms.Button editButton;
     }
 }
 

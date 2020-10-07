@@ -45,6 +45,10 @@
             this.femaleRadioButton = new System.Windows.Forms.RadioButton();
             this.addButton = new System.Windows.Forms.Button();
             this.closeButton = new System.Windows.Forms.Button();
+            this.pictureBox = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.uploadButton = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -123,9 +127,9 @@
             // dateTimePicker
             // 
             this.dateTimePicker.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.dateTimePicker.Location = new System.Drawing.Point(218, 352);
+            this.dateTimePicker.Location = new System.Drawing.Point(218, 356);
             this.dateTimePicker.Name = "dateTimePicker";
-            this.dateTimePicker.Size = new System.Drawing.Size(466, 26);
+            this.dateTimePicker.Size = new System.Drawing.Size(295, 26);
             this.dateTimePicker.TabIndex = 8;
             // 
             // favoriteCheckBox
@@ -217,11 +221,43 @@
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
+            // pictureBox
+            // 
+            this.pictureBox.Location = new System.Drawing.Point(593, 73);
+            this.pictureBox.Name = "pictureBox";
+            this.pictureBox.Size = new System.Drawing.Size(499, 372);
+            this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox.TabIndex = 18;
+            this.pictureBox.TabStop = false;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(593, 29);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(98, 32);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Photo:";
+            // 
+            // uploadButton
+            // 
+            this.uploadButton.Location = new System.Drawing.Point(593, 486);
+            this.uploadButton.Name = "uploadButton";
+            this.uploadButton.Size = new System.Drawing.Size(499, 52);
+            this.uploadButton.TabIndex = 20;
+            this.uploadButton.Text = "Upload";
+            this.uploadButton.UseVisualStyleBackColor = true;
+            this.uploadButton.Click += new System.EventHandler(this.uploadButton_Click);
+            // 
             // AddForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(772, 779);
+            this.ClientSize = new System.Drawing.Size(1168, 779);
+            this.Controls.Add(this.uploadButton);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.femaleRadioButton);
@@ -244,6 +280,7 @@
             this.MinimizeBox = false;
             this.Name = "AddForm";
             this.Text = "Add Form";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -268,5 +305,8 @@
         private System.Windows.Forms.RadioButton femaleRadioButton;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.PictureBox pictureBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button uploadButton;
     }
 }

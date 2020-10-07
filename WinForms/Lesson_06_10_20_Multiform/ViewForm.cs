@@ -22,7 +22,7 @@ namespace Lesson_06_10_20_Multiform
             genderLabel.Text = person.Gender.ToString();
             infoLabel.Text = person.DateOfBirth.ToShortDateString();
             favoriteLabel.Visible = person.Favorite;
-
+            personPictureBox.Image = Image.FromFile(person.Image);
         }
 
         private void closeButton_Click(object sender, EventArgs e)

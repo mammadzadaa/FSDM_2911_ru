@@ -15,6 +15,7 @@ namespace Lesson_06_10_20_Multiform
         public string Email { get; set; }
         public Gender Gender { get; set; }
         public bool Favorite { get; set; }
+        public string Image { get; set; }
 
         public override string ToString()
         {
