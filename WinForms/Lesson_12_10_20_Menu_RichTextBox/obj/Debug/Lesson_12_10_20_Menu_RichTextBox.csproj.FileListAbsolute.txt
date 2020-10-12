@@ -1,0 +1,10 @@
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\bin\Debug\Lesson_12_10_20_Menu_RichTextBox.exe.config
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\bin\Debug\Lesson_12_10_20_Menu_RichTextBox.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\bin\Debug\Lesson_12_10_20_Menu_RichTextBox.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\obj\Debug\Lesson_12_10_20_Menu_RichTextBox.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\obj\Debug\Lesson_12_10_20_Menu_RichTextBox.Form1.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\obj\Debug\Lesson_12_10_20_Menu_RichTextBox.Properties.Resources.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\obj\Debug\Lesson_12_10_20_Menu_RichTextBox.csproj.GenerateResource.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\obj\Debug\Lesson_12_10_20_Menu_RichTextBox.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\obj\Debug\Lesson_12_10_20_Menu_RichTextBox.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_12_10_20_Menu_RichTextBox\obj\Debug\Lesson_12_10_20_Menu_RichTextBox.pdb
