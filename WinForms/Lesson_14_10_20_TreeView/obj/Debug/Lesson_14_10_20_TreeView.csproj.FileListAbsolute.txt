@@ -1,0 +1,11 @@
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\bin\Debug\Lesson_14_10_20_TreeView.exe.config
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\bin\Debug\Lesson_14_10_20_TreeView.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\bin\Debug\Lesson_14_10_20_TreeView.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\obj\Debug\Lesson_14_10_20_TreeView.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\obj\Debug\Lesson_14_10_20_TreeView.AdditionalForm.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\obj\Debug\Lesson_14_10_20_TreeView.MainForm.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\obj\Debug\Lesson_14_10_20_TreeView.Properties.Resources.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\obj\Debug\Lesson_14_10_20_TreeView.csproj.GenerateResource.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\obj\Debug\Lesson_14_10_20_TreeView.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\obj\Debug\Lesson_14_10_20_TreeView.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_14_10_20_TreeView\obj\Debug\Lesson_14_10_20_TreeView.pdb
