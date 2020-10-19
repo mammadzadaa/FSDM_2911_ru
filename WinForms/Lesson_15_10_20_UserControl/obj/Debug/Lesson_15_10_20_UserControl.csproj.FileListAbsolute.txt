@@ -1,0 +1,12 @@
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\bin\Debug\Lesson_15_10_20_UserControl.exe.config
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\bin\Debug\Lesson_15_10_20_UserControl.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\bin\Debug\Lesson_15_10_20_UserControl.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.Form1.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.Properties.Resources.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.UserControl1.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.UserControl2.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.csproj.GenerateResource.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\Lesson_15_10_20_UserControl\obj\Debug\Lesson_15_10_20_UserControl.pdb

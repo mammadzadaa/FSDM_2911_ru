@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -26,7 +27,8 @@ namespace Lesson_14_10_20_TreeView_2
 
                     if (info.Attributes != FileAttributes.Hidden)
                     {
-                        TreeNode node = new TreeNode(dir);
+                        TreeNode node = new TreeNode(Path.GetFileName(dir));
+                        node.Tag = dir;
                         folderTreeView.Nodes.Add(node);
                         if (info.GetDirectories().Length != 0)
                         {
@@ -38,18 +40,17 @@ namespace Lesson_14_10_20_TreeView_2
                             info = new DirectoryInfo(subdir);
                             if (info.Attributes != FileAttributes.Hidden)
                             {
-                                node.Nodes.Add(subdir);
+                                TreeNode subnode = new TreeNode(Path.GetFileName(subdir));
+                                subnode.Tag = subdir;
+                                node.Nodes.Add(subnode);
                             }
                         }
                     }
                 }
                 catch (UnauthorizedAccessException)
                 {
-                   
-                }
-                
-              
-               
+
+                }   
             }
         }
 
@@ -62,23 +63,89 @@ namespace Lesson_14_10_20_TreeView_2
                     {
                         try
                         {
-                            var subdirectories = Directory.GetDirectories(node.Text);
+                            var subdirectories = Directory.GetDirectories(node.Tag as string);
                             foreach (var item in subdirectories)
                             {
-                                node.Nodes.Add(item);
+                                TreeNode subsubnode = new TreeNode(Path.GetFileName(item));
+                                subsubnode.Tag = item;
+                                node.Nodes.Add(subsubnode);
                             }
                         }
                         catch (UnauthorizedAccessException)
                         {
 
-                        }
-                    
-                    }                  
-
+                        }             
+                    }               
                 }
             }
-            
-            
-           
+
+        private void folderTreeView_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            var fullPath = e.Node.Tag as string;
+            pathTextBox.Text = fullPath;
+            try
+            {
+                AddingElements(fullPath);
+            }
+            catch (UnauthorizedAccessException)
+            {
+
+            }
         }
+
+        private void AddingElements(string fullPath)
+        {
+            elementsListView.Clear();
+            var allDirectories = Directory.GetDirectories(fullPath);
+
+            foreach (var dir in allDirectories)
+            {
+                var item = new ListViewItem(Path.GetFileName(dir));
+                item.Tag = dir;
+                item.ImageIndex = 0;
+                elementsListView.Items.Add(item);
+            }
+
+            var allFiles = Directory.GetFiles(fullPath);
+
+            foreach (var file in allFiles)
+            {
+                var item = new ListViewItem(Path.GetFileName(file));
+                item.Tag = file;
+                item.ImageIndex = 1;
+                elementsListView.Items.Add(item);
+            }
+        }
+
+        private void elementsListView_ItemActivate(object sender, EventArgs e)
+        {
+            var fullPath = elementsListView.SelectedItems[0].Tag as string;
+            if (Path.HasExtension(fullPath))
+            {
+                Process.Start(fullPath);
+            }
+            else
+            {
+                try
+                {
+                    pathTextBox.Text = fullPath;
+                    AddingElements(fullPath);
+                }
+                catch (UnauthorizedAccessException)
+                {
+
+                }
+                
+            }
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            var path = pathTextBox.Text;
+            var parentPath = path.Substring(0, path.LastIndexOf(@"\"));
+            pathTextBox.Text = parentPath;
+            AddingElements(parentPath);
+
+        }
+    }
     }
