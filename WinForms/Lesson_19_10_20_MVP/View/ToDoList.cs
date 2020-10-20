@@ -40,5 +40,14 @@ namespace Lesson_19_10_20_MVP.View
         {
             Add?.Invoke();
         }
+
+        private void toDoListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var item = toDoListBox.SelectedItem as ToDo;
+            if (item != null)
+            {
+                descriptionTextBox.Text = item.Description;
+            }
+        }
     }
 }

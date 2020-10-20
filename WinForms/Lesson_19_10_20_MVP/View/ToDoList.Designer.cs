@@ -31,9 +31,9 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.toDoListBox = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.removeButton = new System.Windows.Forms.Button();
-            this.addButton = new System.Windows.Forms.Button();
             this.descriptionTextBox = new System.Windows.Forms.TextBox();
+            this.addButton = new System.Windows.Forms.Button();
+            this.removeButton = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -63,6 +63,7 @@
             this.toDoListBox.Name = "toDoListBox";
             this.toDoListBox.Size = new System.Drawing.Size(394, 444);
             this.toDoListBox.TabIndex = 0;
+            this.toDoListBox.SelectedIndexChanged += new System.EventHandler(this.toDoListBox_SelectedIndexChanged);
             // 
             // panel1
             // 
@@ -75,16 +76,16 @@
             this.panel1.Size = new System.Drawing.Size(394, 444);
             this.panel1.TabIndex = 1;
             // 
-            // removeButton
+            // descriptionTextBox
             // 
-            this.removeButton.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.removeButton.Location = new System.Drawing.Point(0, 394);
-            this.removeButton.Name = "removeButton";
-            this.removeButton.Size = new System.Drawing.Size(394, 50);
-            this.removeButton.TabIndex = 0;
-            this.removeButton.Text = "Remove";
-            this.removeButton.UseVisualStyleBackColor = true;
-            this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
+            this.descriptionTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.descriptionTextBox.Enabled = false;
+            this.descriptionTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.descriptionTextBox.Location = new System.Drawing.Point(0, 0);
+            this.descriptionTextBox.Multiline = true;
+            this.descriptionTextBox.Name = "descriptionTextBox";
+            this.descriptionTextBox.Size = new System.Drawing.Size(394, 340);
+            this.descriptionTextBox.TabIndex = 2;
             // 
             // addButton
             // 
@@ -97,16 +98,16 @@
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
-            // descriptionTextBox
+            // removeButton
             // 
-            this.descriptionTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.descriptionTextBox.Enabled = false;
-            this.descriptionTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.descriptionTextBox.Location = new System.Drawing.Point(0, 0);
-            this.descriptionTextBox.Multiline = true;
-            this.descriptionTextBox.Name = "descriptionTextBox";
-            this.descriptionTextBox.Size = new System.Drawing.Size(394, 340);
-            this.descriptionTextBox.TabIndex = 2;
+            this.removeButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.removeButton.Location = new System.Drawing.Point(0, 394);
+            this.removeButton.Name = "removeButton";
+            this.removeButton.Size = new System.Drawing.Size(394, 50);
+            this.removeButton.TabIndex = 0;
+            this.removeButton.Text = "Remove";
+            this.removeButton.UseVisualStyleBackColor = true;
+            this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
             // ToDoList
             // 

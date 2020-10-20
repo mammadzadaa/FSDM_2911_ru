@@ -1,60 +1,42 @@
 ﻿using Lesson_19_10_20_MVP.Model;
+using Lesson_19_10_20_MVP.Services;
 using Lesson_19_10_20_MVP.View;
+using Lesson_19_10_20_MVP;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Lesson_19_10_20_MVP.Presenter
 {
     public class ToDoListPresenter
     {
-        private List<ToDo> listOfToDo = new List<ToDo>();
-        public IToDoList view;
+        
+        private IToDoList view;
+        private IToDoListRepository repository;
 
-        public ToDoListPresenter(IToDoList view)
+        public ToDoListPresenter(IToDoList view, IToDoListRepository repository)
         {
             this.view = view;
+            this.repository = repository;
+
             view.Add += AddItem;
             view.Remove += DeleteItem;
 
-
-            listOfToDo.Add(new ToDo() { Id = Guid.NewGuid().ToString(), 
-                                        Task = "Do homework", 
-                                        Description = "Do gomework before bed time 9 pm" });
-            listOfToDo.Add(new ToDo() { Id = Guid.NewGuid().ToString(),
-                                        Task = "Repair Car Headlights",
-                                        Description = "Get the best one from dilership" });
-            listOfToDo.Add(new ToDo() { Id = Guid.NewGuid().ToString(),
-                                        Task = "Take children from school",
-                                        Description = "Be at school at 3 pm" });
-
-            view.UpdateList(listOfToDo);
-       
+            view.UpdateList(repository.GetAllTasks());
         }
 
         public void DeleteItem(string Id)
         {
-            var index = listOfToDo.FindIndex(x => x.Id == Id);
-            if (index != -1)
-            {
-                listOfToDo.RemoveAt(index);
-                view.UpdateList(listOfToDo);
-            }
-            
+            repository.RemoveTask(Id);
+            view.UpdateList(repository.GetAllTasks());            
         }
 
         public void AddItem()
         {
-            listOfToDo.Add(new ToDo()
-            {
-                Id = Guid.NewGuid().ToString(),
-                Task = "Buy some bread",
-                Description = "Buy bread from nearest grosery store"
-            });
-            view.UpdateList(listOfToDo);
-            
+            Program.AddItem();
         }
 
     }
