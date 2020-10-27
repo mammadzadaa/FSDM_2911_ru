@@ -1,0 +1,14 @@
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\bin\Debug\ModernUI.exe.config
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\bin\Debug\ModernUI.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\bin\Debug\ModernUI.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\bin\Debug\MetroFramework.Design.dll
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\bin\Debug\MetroFramework.dll
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\bin\Debug\MetroFramework.Fonts.dll
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\obj\Debug\ModernUI.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\obj\Debug\ModernUI.Properties.Resources.resources
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\obj\Debug\ModernUI.csproj.GenerateResource.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\obj\Debug\ModernUI.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\obj\Debug\ModernUI.csproj.CopyComplete
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\obj\Debug\ModernUI.exe
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\obj\Debug\ModernUI.pdb
+C:\Qt\Projects\FSDM_2911_ru\WinForms\ModernUI\obj\Debug\ModernUI.Form1.resources
