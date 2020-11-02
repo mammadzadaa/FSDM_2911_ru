@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfToDo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ToDo>
+    <Task>Wash your dishes</Task>
+    <isDone>true</isDone>
+  </ToDo>
+  <ToDo>
+    <Task>Wash your teeth</Task>
+    <isDone>false</isDone>
+  </ToDo>
+  <ToDo>
+    <Task>Wash your hands</Task>
+    <isDone>true</isDone>
+  </ToDo>
+</ArrayOfToDo>
