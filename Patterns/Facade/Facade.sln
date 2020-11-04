@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade.csproj", "{8920D219-EB20-47D4-A883-EF554D0F4AE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8920D219-EB20-47D4-A883-EF554D0F4AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8920D219-EB20-47D4-A883-EF554D0F4AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8920D219-EB20-47D4-A883-EF554D0F4AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8920D219-EB20-47D4-A883-EF554D0F4AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51962E71-A086-46D9-8C6C-FB486F4E9986}
+	EndGlobalSection
+EndGlobal
