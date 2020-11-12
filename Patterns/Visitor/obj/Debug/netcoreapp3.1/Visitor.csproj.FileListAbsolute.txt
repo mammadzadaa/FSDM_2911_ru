@@ -1,0 +1,13 @@
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\bin\Debug\netcoreapp3.1\Visitor.exe
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\bin\Debug\netcoreapp3.1\Visitor.deps.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\bin\Debug\netcoreapp3.1\Visitor.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\bin\Debug\netcoreapp3.1\Visitor.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\bin\Debug\netcoreapp3.1\Visitor.dll
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\bin\Debug\netcoreapp3.1\Visitor.pdb
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\obj\Debug\netcoreapp3.1\Visitor.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\obj\Debug\netcoreapp3.1\Visitor.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\obj\Debug\netcoreapp3.1\Visitor.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\obj\Debug\netcoreapp3.1\Visitor.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\obj\Debug\netcoreapp3.1\Visitor.dll
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\obj\Debug\netcoreapp3.1\Visitor.pdb
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Visitor\obj\Debug\netcoreapp3.1\Visitor.genruntimeconfig.cache

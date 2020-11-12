@@ -1,0 +1,4 @@
+Hotel
+Name: Absheron
+Coordinates: 40.12, 43.12
+Stars: 5

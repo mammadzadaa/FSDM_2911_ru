@@ -1,0 +1,4 @@
+Bus Station
+Name: 28 May
+Coordinates: 41.22, 42.42
+Bus numbers: 1 2 10 
