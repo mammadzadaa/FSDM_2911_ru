@@ -1,0 +1,13 @@
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\bin\Debug\netcoreapp3.1\Reposiory.exe
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\bin\Debug\netcoreapp3.1\Reposiory.deps.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\bin\Debug\netcoreapp3.1\Reposiory.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\bin\Debug\netcoreapp3.1\Reposiory.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\bin\Debug\netcoreapp3.1\Reposiory.dll
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\bin\Debug\netcoreapp3.1\Reposiory.pdb
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\obj\Debug\netcoreapp3.1\Reposiory.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\obj\Debug\netcoreapp3.1\Reposiory.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\obj\Debug\netcoreapp3.1\Reposiory.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\obj\Debug\netcoreapp3.1\Reposiory.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\obj\Debug\netcoreapp3.1\Reposiory.dll
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\obj\Debug\netcoreapp3.1\Reposiory.pdb
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Reposiory\obj\Debug\netcoreapp3.1\Reposiory.genruntimeconfig.cache

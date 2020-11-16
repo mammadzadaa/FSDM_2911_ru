@@ -8,10 +8,27 @@ namespace Reposiory
     {
         static void Main(string[] args)
         {
-            
+            var unitOfWork = new UnitOfWork();
+            unitOfWork.CardRepository.Create(new Card());
         }
     }
-    
+
+    class UnitOfWork
+    {
+        public ClientRepository ClientRepository { get; set; } = new ClientRepository();
+        public CardRepository CardRepository { get; set; } = new CardRepository();
+
+        public void Save()
+        {
+
+        }
+        public void Load()
+        {
+
+        }
+
+    }
+
     // CRUD (Creat, Read, Update, Delete)
     interface IRepository<T> where T : class
     {
@@ -31,7 +48,7 @@ namespace Reposiory
 
     abstract class Repository<T> : IRepository<T> where T : class
     {
-        static protected Dictionary<string, T> storage;
+        static protected Dictionary<string, T> storage = new Dictionary<string, T>();
         public abstract void Create(T item);
 
         public T Get(string id)
