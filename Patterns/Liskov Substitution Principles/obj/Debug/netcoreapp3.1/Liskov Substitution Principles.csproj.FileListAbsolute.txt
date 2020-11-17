@@ -1,0 +1,13 @@
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\bin\Debug\netcoreapp3.1\Liskov Substitution Principles.exe
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\bin\Debug\netcoreapp3.1\Liskov Substitution Principles.deps.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\bin\Debug\netcoreapp3.1\Liskov Substitution Principles.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\bin\Debug\netcoreapp3.1\Liskov Substitution Principles.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\bin\Debug\netcoreapp3.1\Liskov Substitution Principles.dll
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\bin\Debug\netcoreapp3.1\Liskov Substitution Principles.pdb
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\obj\Debug\netcoreapp3.1\Liskov Substitution Principles.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\obj\Debug\netcoreapp3.1\Liskov Substitution Principles.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\obj\Debug\netcoreapp3.1\Liskov Substitution Principles.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\obj\Debug\netcoreapp3.1\Liskov Substitution Principles.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\obj\Debug\netcoreapp3.1\Liskov Substitution Principles.dll
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\obj\Debug\netcoreapp3.1\Liskov Substitution Principles.pdb
+C:\Qt\Projects\FSDM_2911_ru\Patterns\Liskov Substitution Principles\obj\Debug\netcoreapp3.1\Liskov Substitution Principles.genruntimeconfig.cache

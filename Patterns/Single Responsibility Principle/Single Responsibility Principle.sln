@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single Responsibility Principle", "Single Responsibility Principle.csproj", "{68D55D24-D7DA-4042-A3E1-E9DE77CE01DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68D55D24-D7DA-4042-A3E1-E9DE77CE01DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D55D24-D7DA-4042-A3E1-E9DE77CE01DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D55D24-D7DA-4042-A3E1-E9DE77CE01DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D55D24-D7DA-4042-A3E1-E9DE77CE01DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46415742-9239-4C9C-BAB2-306F74C2ED58}
+	EndGlobalSection
+EndGlobal
