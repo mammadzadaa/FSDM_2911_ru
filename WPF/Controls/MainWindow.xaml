@@ -1,0 +1,114 @@
+﻿<Window x:Class="Controls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xd ="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="400">
+
+    <StackPanel>
+        <xd:Calculator></xd:Calculator>
+        <xd:DecimalUpDown></xd:DecimalUpDown>
+        <xd:ColorPicker/>
+        <xd:MaskedTextBox></xd:MaskedTextBox>
+    </StackPanel>
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <DockPanel>
+            <TextBox x:Name="textBox" Width="300"></TextBox>
+            <Button Click="addButton_Click" x:Name="addButton">Add</Button>
+        </DockPanel>
+        <ComboBox DisplayMemberPath="Name" Grid.Row="1" SelectedIndex="1" x:Name="comboBox"/>
+
+        <ListBox DisplayMemberPath="Number" Grid.Row="2" x:Name="listBox"/>
+
+        --><!--<MediaElement LoadedBehavior="Play" Source="Images/Video.mp4" Grid.Row="3"></MediaElement>--><!--
+    </Grid>-->
+
+    <!--<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <ComboBox SelectedIndex="1">
+            <ComboBoxItem Selector.IsSelected="True">One</ComboBoxItem>
+            <ComboBoxItem>
+                <Button>Click Me</Button></ComboBoxItem>
+            <ComboBoxItem>
+                <DockPanel>
+                <Label>Hello</Label>
+                <Image Width="100" Height="100" Source="Images/Cat.png"/>
+                </DockPanel>
+            </ComboBoxItem>
+        </ComboBox>
+        <ListBox Grid.Row="1">
+            <ListBoxItem>
+                <Button> Hey</Button>
+            </ListBoxItem>
+            <ListBoxItem>
+                <Label>Hello</Label>
+            </ListBoxItem>
+            <ListBoxItem>
+                hey
+            </ListBoxItem>
+            <ListBoxItem>
+                <Image Height="100" Source="Images/Cat.png"/>
+            </ListBoxItem>
+        </ListBox>
+    </Grid>-->
+    
+    <!--<ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+    <StackPanel>
+        <TextBox x:Name="textBoxText"/>
+        <Button Click="Button_Click" Margin="5" BorderBrush="Red" BorderThickness="5" Padding="5" Content="Button"/>
+        <TextBlock x:Name="textBlockResult"/>
+        <Label>Enter Password:</Label>
+        <PasswordBox PasswordChar="@"/>
+        <TextBlock Foreground="Green" TextWrapping="Wrap">Noyabrın 23-də Azərbaycan Respublikasının Prezidenti, 
+            <LineBreak/>
+            <LineBreak/>
+            <Hyperlink NavigateUri="http://www.google.com">Google</Hyperlink>
+            <LineBreak/>
+            Silahlı Qüvvələrin <Run Foreground="Red">Müzəffər</Run> 
+            Ali Baş Komandanı İlham Əliyev və 
+            birinci xanım Mehriban Əliyeva işğaldan azad edilmiş Ağdam 
+            şəhərində olublar. (Səfərdən geniş hesabat noyabrın 24-də veriləcək).</TextBlock>
+        <CheckBox IsChecked="{x:Null}">Boy</CheckBox>
+        <GroupBox>
+            <GroupBox.Header>First</GroupBox.Header>
+            <StackPanel>
+                <RadioButton>One</RadioButton>
+                <RadioButton>Two</RadioButton>
+            </StackPanel>
+
+        </GroupBox>
+
+        <RadioButton GroupName="S">One</RadioButton>
+        <RadioButton GroupName="S">Two</RadioButton>
+
+        <ProgressBar Minimum="10" Maximum="20" Value="15" Height="20"/>
+        <Slider Minimum="5" Maximum="25" Value="10"/>
+        <Image  Source="Images/Cat.png" Stretch="Uniform" Opacity="0.5" />
+    </StackPanel>
+    </ScrollViewer>-->
+
+    <!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button>Click Me</Button>
+        <GridSplitter HorizontalAlignment="Center" Width="5" Grid.Column="1"/>
+        <Label Grid.Column="2">Hello my friend</Label>
+    </Grid>-->
+</Window>
