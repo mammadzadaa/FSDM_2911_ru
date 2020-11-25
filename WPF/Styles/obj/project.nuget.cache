@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/eQHV1mpzzCEYhSsaN8+/XtFdiNW0TOknUadeAsBPRfJ700OppJfDzBS4frQYhZG3bT/SdYZ5bD6w2YfgL38Yw==",
+  "success": true,
+  "projectFilePath": "C:\\Qt\\Projects\\FSDM_2911_ru\\WPF\\Styles\\Styles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aqil\\.nuget\\packages\\microsoft-windowsapicodepack-core\\1.1.4\\microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512",
+    "C:\\Users\\Aqil\\.nuget\\packages\\microsoft-windowsapicodepack-shell\\1.1.4\\microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
