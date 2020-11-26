@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "B64v20sX8O/lY6RTfELaSWoDPNKpAPK2ZXEdH8KsVAKiwYf9SWNw5ZfxnsPbQXJgfrmFRPqMi4erExWfMUBsZw==",
+  "success": true,
+  "projectFilePath": "C:\\Qt\\Projects\\FSDM_2911_ru\\WPF\\Templates\\Templates.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aqil\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\Aqil\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
