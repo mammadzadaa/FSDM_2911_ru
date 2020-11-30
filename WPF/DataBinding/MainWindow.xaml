@@ -1,0 +1,31 @@
+﻿<Window x:Class="DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Name="mainWindow" FontSize="40" Height="450" Width="400">
+    <Window.Resources>
+        <SolidColorBrush x:Key="redBrush" Color="Red"/>
+    </Window.Resources>
+
+    <StackPanel>
+        <TextBox Text="{Binding MyText}"/>
+        <TextBlock Text="{Binding MyText}"/>
+        <TextBlock Text="{Binding Phone}"/>
+        <Button Content="Update" Click="Button_Click"/>
+    </StackPanel>
+    
+    <!--<StackPanel>
+        --><!--<TextBox TextChanged="OnTextChanged" x:Name="textBoxInput"/>
+        <TextBlock x:Name="textBlockOutput"/>--><!--
+        <TextBox x:Name="textBoxInput"/>
+        <TextBlock Text="{Binding ElementName=textBoxInput, Path=Text.Length}"/>
+        <WrapPanel>
+            <TextBlock Text="{Binding ElementName=mainWindow, Path=Width}"/>
+            <TextBlock Text=" x "/>
+            <TextBlock Text="{Binding ElementName=mainWindow, Path=Height}"/>
+        </WrapPanel>
+    </StackPanel>-->
+</Window>
