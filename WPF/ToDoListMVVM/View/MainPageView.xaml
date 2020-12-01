@@ -1,0 +1,60 @@
+﻿<Window x:Class="ToDoListMVVM.View.MainPageView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoListMVVM.View"
+        mc:Ignorable="d"
+        Title="MainPageView" Height="450" Width="800" FontSize="20">
+    <Window.Resources>
+
+        <Style x:Key="taskListItemStyle" TargetType="TextBlock">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding IsDone}" Value="True">
+                    <Setter Property="Foreground" Value="Green"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding IsDone}" Value="False">
+                    <Setter Property="Foreground" Value="Red"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <DataTemplate x:Key="taskListTemplate">
+            <StackPanel>
+                <TextBlock Style="{StaticResource taskListItemStyle}" Text="{Binding Name}"/>
+                <TextBlock Style="{StaticResource taskListItemStyle}" Text="{Binding Description}" FontSize="12"/>
+                <TextBlock Text="{Binding Deadline, StringFormat=Deadline: {0:d}}" FontSize="12"/>
+                <TextBlock Text="{Binding IsDone, StringFormat=Done: {0}}" FontSize="12"/>
+            </StackPanel>
+        </DataTemplate>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        
+        <StackPanel Margin="5">
+            <Label Margin="5">Task name:</Label>
+            <TextBox Text="{Binding TaskName}" Margin="5"/>
+            <Label Margin="5">Task Description:</Label>
+            <TextBox  Text="{Binding TaskDescription}" Margin="5" TextWrapping="Wrap" Height="100"/>
+            <Label Margin="5">Daeadline:</Label>
+            <DatePicker SelectedDate="{Binding TaskDeadline}" Margin="5"/>
+            <CheckBox IsChecked="{Binding TaskDone}" VerticalContentAlignment="Center" Margin="5">Task Done</CheckBox>
+        </StackPanel>
+
+        <Button Grid.Row="1" Command="{Binding AddTaskCommand}" Margin="5">Add</Button>
+        <Button Grid.Row="1" Command="{Binding RemoveTaskCommand}" Grid.Column="1" Margin="5">Remove</Button>
+
+        <ListBox SelectedItem="{Binding SelectedTask}"
+                 ItemTemplate="{StaticResource taskListTemplate}" 
+                 ItemsSource="{Binding MyTasks}"
+                 Margin="5" Grid.Column="1"/>
+    </Grid>
+</Window>
