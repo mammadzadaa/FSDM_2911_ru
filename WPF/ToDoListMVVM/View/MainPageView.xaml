@@ -20,12 +20,17 @@
         </Style>
 
         <DataTemplate x:Key="taskListTemplate">
-            <StackPanel>
+            <DockPanel>
+                <Button Height="30" Width="30" Margin="20,10" DockPanel.Dock="Left">
+                    X
+                </Button>
+            <StackPanel>                
                 <TextBlock Style="{StaticResource taskListItemStyle}" Text="{Binding Name}"/>
                 <TextBlock Style="{StaticResource taskListItemStyle}" Text="{Binding Description}" FontSize="12"/>
                 <TextBlock Text="{Binding Deadline, StringFormat=Deadline: {0:d}}" FontSize="12"/>
                 <TextBlock Text="{Binding IsDone, StringFormat=Done: {0}}" FontSize="12"/>
             </StackPanel>
+            </DockPanel>
         </DataTemplate>
     </Window.Resources>
     
@@ -49,7 +54,7 @@
             <CheckBox IsChecked="{Binding TaskDone}" VerticalContentAlignment="Center" Margin="5">Task Done</CheckBox>
         </StackPanel>
 
-        <Button Grid.Row="1" Command="{Binding AddTaskCommand}" Margin="5">Add</Button>
+        <Button Grid.Row="1" CommandParameter="Success" Command="{Binding AddTaskCommand}" Margin="5">Add</Button>
         <Button Grid.Row="1" Command="{Binding RemoveTaskCommand}" Grid.Column="1" Margin="5">Remove</Button>
 
         <ListBox SelectedItem="{Binding SelectedTask}"

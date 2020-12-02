@@ -84,8 +84,9 @@ namespace ToDoListMVVM.ViewModel
         //}
 
         public CommandBase AddTaskCommand => addTaskCommand ?? (addTaskCommand = new CommandBase(x =>
-                    {
+                    {                        
                         AddTask();
+                        MessageBox.Show(x as string);
                     },
                     () =>
                     {
