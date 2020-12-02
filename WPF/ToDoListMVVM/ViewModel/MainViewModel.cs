@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 using System.Windows;
 using System.Windows.Input;
+using ToDoListMVVM.Commands;
 using ToDoListMVVM.Model;
 
 namespace ToDoListMVVM.ViewModel
@@ -42,25 +43,6 @@ namespace ToDoListMVVM.ViewModel
     //    public bool CanExecute(object parameter) => true;
     //}
 
-
-    public class CommandBase : ICommand
-    {
-        private Action<object> action;
-
-        public CommandBase(Action<object> action)
-        {
-            this.action = action;
-        }
-
-        public void Execute(object parameter)
-        {
-            action?.Invoke(parameter);
-        }
-        public event EventHandler CanExecuteChanged;
-
-        public bool CanExecute(object parameter) => true;
-    }
-
     public class MainViewModel : ViewModelBase
     {
         private string taskName;
@@ -71,7 +53,17 @@ namespace ToDoListMVVM.ViewModel
         private MyTask selectedTask;
         private CommandBase addTaskCommand;
 
-        public string TaskName { get => taskName; set => OnChanged(out taskName, value); }
+
+        public string TaskName 
+        { 
+            get => taskName;
+            set
+            {
+                OnChanged(out taskName, value);
+                AddTaskCommand.RaiseCanExecuteChanged();
+            }
+        }
+
         public string TaskDescription { get => taskDescription; set => OnChanged(out taskDescription, value); }
         public ObservableCollection<MyTask> MyTasks { get => myTasks; set => OnChanged(out myTasks, value); }
         public bool TaskDone { get => taskDone; set => OnChanged(out taskDone, value); }
@@ -94,9 +86,11 @@ namespace ToDoListMVVM.ViewModel
         public CommandBase AddTaskCommand => addTaskCommand ?? (addTaskCommand = new CommandBase(x =>
                     {
                         AddTask();
-                    }));
-            
-        
+                    },
+                    () =>
+                    {
+                        return !string.IsNullOrWhiteSpace(TaskName);
+                    }));        
 
         public CommandBase RemoveTaskCommand { get; }
 

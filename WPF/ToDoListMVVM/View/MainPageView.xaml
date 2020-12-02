@@ -41,7 +41,7 @@
         
         <StackPanel Margin="5">
             <Label Margin="5">Task name:</Label>
-            <TextBox Text="{Binding TaskName}" Margin="5"/>
+            <TextBox Text="{Binding TaskName, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
             <Label Margin="5">Task Description:</Label>
             <TextBox  Text="{Binding TaskDescription}" Margin="5" TextWrapping="Wrap" Height="100"/>
             <Label Margin="5">Daeadline:</Label>
