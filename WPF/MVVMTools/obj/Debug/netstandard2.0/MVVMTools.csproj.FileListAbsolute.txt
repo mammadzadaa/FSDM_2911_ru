@@ -1,0 +1,9 @@
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\bin\Debug\netstandard2.0\MVVMTools.deps.json
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\bin\Debug\netstandard2.0\MVVMTools.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\bin\Debug\netstandard2.0\MVVMTools.pdb
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\obj\Debug\netstandard2.0\MVVMTools.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\obj\Debug\netstandard2.0\MVVMTools.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\obj\Debug\netstandard2.0\MVVMTools.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\obj\Debug\netstandard2.0\MVVMTools.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\obj\Debug\netstandard2.0\MVVMTools.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVMTools\obj\Debug\netstandard2.0\MVVMTools.pdb

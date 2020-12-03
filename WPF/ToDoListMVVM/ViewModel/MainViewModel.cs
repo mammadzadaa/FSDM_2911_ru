@@ -1,11 +1,13 @@
-﻿using System;
+﻿using MVVMTools.Commands;
+using MVVMTools.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using System.Windows;
 using System.Windows.Input;
-using ToDoListMVVM.Commands;
 using ToDoListMVVM.Model;
+
 
 namespace ToDoListMVVM.ViewModel
 {
@@ -52,10 +54,10 @@ namespace ToDoListMVVM.ViewModel
         private DateTime taskDeadline = DateTime.Now;
         private MyTask selectedTask;
         private CommandBase addTaskCommand;
+        private CommandBase<MyTask> removeTaskItemCommand;
 
-
-        public string TaskName 
-        { 
+        public string TaskName
+        {
             get => taskName;
             set
             {
@@ -68,7 +70,15 @@ namespace ToDoListMVVM.ViewModel
         public ObservableCollection<MyTask> MyTasks { get => myTasks; set => OnChanged(out myTasks, value); }
         public bool TaskDone { get => taskDone; set => OnChanged(out taskDone, value); }
         public DateTime TaskDeadline { get => taskDeadline; set => OnChanged(out taskDeadline, value); }
-        public MyTask SelectedTask { get => selectedTask; set => OnChanged(out selectedTask, value); }
+        public MyTask SelectedTask
+        {
+            get => selectedTask;
+            set
+            {
+                OnChanged(out selectedTask, value);
+                RemoveTaskCommand.RaiseCanExecuteChanged();
+            }
+        }
 
         //public CommandBase AddTaskCommand { get
         //    {
@@ -83,26 +93,31 @@ namespace ToDoListMVVM.ViewModel
         //    }
         //}
 
-        public CommandBase AddTaskCommand => addTaskCommand ?? (addTaskCommand = new CommandBase(x =>
-                    {                        
+        public CommandBase<MyTask> RemoveTaskItemCommand => removeTaskItemCommand ?? (removeTaskItemCommand = new CommandBase<MyTask>((x) =>
+        {
+            MyTasks.Remove(x);
+        } ));
+
+        public CommandBase AddTaskCommand => addTaskCommand ?? (addTaskCommand = new CommandBase(() =>
+                    {
                         AddTask();
-                        MessageBox.Show(x as string);
                     },
                     () =>
                     {
                         return !string.IsNullOrWhiteSpace(TaskName);
-                    }));        
+                    }));
 
         public CommandBase RemoveTaskCommand { get; }
 
         public MainViewModel()
         {
             //AddTaskCommand = new CommandBase(x => AddTask());
-            RemoveTaskCommand = new CommandBase(x =>
+            RemoveTaskCommand = new CommandBase(() =>
             {
                 if (SelectedTask != null)
                     MyTasks.Remove(SelectedTask);
-            });
+            },
+            () => SelectedTask != null);
             myTasks = new ObservableCollection<MyTask>();
         }
         private void Clear()
@@ -127,8 +142,8 @@ namespace ToDoListMVVM.ViewModel
 
         //public void RemoveTask()
         //{
-             //if (SelectedTask != null)
-             //       MyTasks.Remove(SelectedTask);
+        //if (SelectedTask != null)
+        //       MyTasks.Remove(SelectedTask);
         //}
     }
 }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MVVMTools/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MVVMTools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MVVMTools.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MVVMTools/1.0.0": {
+      "type": "project",
+      "path": "../MVVMTools/MVVMTools.csproj",
+      "msbuildProject": "../MVVMTools/MVVMTools.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "MVVMTools >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Aqil\\.nuget\\packages\\": {},
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Qt\\Projects\\FSDM_2911_ru\\WPF\\MVVMTools\\MVVMTools.csproj": {
+              "projectPath": "C:\\Qt\\Projects\\FSDM_2911_ru\\WPF\\MVVMTools\\MVVMTools.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

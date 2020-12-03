@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoListMVVM.View"
         mc:Ignorable="d"
+        x:Name="MainWindow"
         Title="MainPageView" Height="450" Width="800" FontSize="20">
     <Window.Resources>
 
@@ -21,8 +22,13 @@
 
         <DataTemplate x:Key="taskListTemplate">
             <DockPanel>
-                <Button Height="30" Width="30" Margin="20,10" DockPanel.Dock="Left">
-                    X
+                <Button Command="{Binding ElementName=MainWindow, Path=DataContext.RemoveTaskItemCommand}"
+                        CommandParameter="{Binding}"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Height="30" Width="30" Margin="20,10"
+                        DockPanel.Dock="Left">
+                    ❌
                 </Button>
             <StackPanel>                
                 <TextBlock Style="{StaticResource taskListItemStyle}" Text="{Binding Name}"/>

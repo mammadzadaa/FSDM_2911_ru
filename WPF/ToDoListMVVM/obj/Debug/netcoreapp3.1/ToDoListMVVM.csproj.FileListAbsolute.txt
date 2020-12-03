@@ -17,3 +17,6 @@ C:\Qt\Projects\FSDM_2911_ru\WPF\ToDoListMVVM\obj\Debug\netcoreapp3.1\ToDoListMVV
 C:\Qt\Projects\FSDM_2911_ru\WPF\ToDoListMVVM\obj\Debug\netcoreapp3.1\ToDoListMVVM.dll
 C:\Qt\Projects\FSDM_2911_ru\WPF\ToDoListMVVM\obj\Debug\netcoreapp3.1\ToDoListMVVM.pdb
 C:\Qt\Projects\FSDM_2911_ru\WPF\ToDoListMVVM\obj\Debug\netcoreapp3.1\ToDoListMVVM.genruntimeconfig.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\ToDoListMVVM\bin\Debug\netcoreapp3.1\MVVMTools.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\ToDoListMVVM\bin\Debug\netcoreapp3.1\MVVMTools.pdb
+C:\Qt\Projects\FSDM_2911_ru\WPF\ToDoListMVVM\obj\Debug\netcoreapp3.1\ToDoListMVVM.csproj.CopyComplete
