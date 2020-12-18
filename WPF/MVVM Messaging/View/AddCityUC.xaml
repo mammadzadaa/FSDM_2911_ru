@@ -4,22 +4,24 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MVVM_Messaging.View"
-             mc:Ignorable="d" 
+             mc:Ignorable="d"
+             xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
              d:Background="White"
-             d:DesignHeight="450" d:DesignWidth="400">
+             d:DesignHeight="650" d:DesignWidth="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
             <RowDefinition Height="3*"/>
+            <RowDefinition Height="4*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <StackPanel>
             <RadioButton
              x:Name="ByCityRB"
-             IsChecked="True"
              GroupName="RadioButton"
-             Margin="10"/>
+             Margin="10"
+             IsChecked="{Binding IsCityRBChecked}"/>
             <Label Margin="10,0,10,10">By City Name</Label>
             <Label Margin="10,0,10,0">Name:</Label>
             <TextBox 
@@ -28,32 +30,40 @@
                 Text="{Binding CityName}" />
 
         </StackPanel >
-            
-       
         <StackPanel Grid.Row="1">
             <RadioButton 
                 x:Name="ByCityCoordsRB"
                 GroupName="RadioButton" 
-                Margin="10"/>
+                Margin="10" 
+                IsChecked="{Binding IsCityCoordsRBChecked}"/>
             <Label Margin="10, 0, 10 , 0">By City Cords</Label>
-            <Label Margin="10,0,10,0">Latitude: </Label>
+            <Label Margin="10,0,10,0">Latitude:</Label>
             <TextBox IsEnabled="{Binding IsChecked, ElementName=ByCityCoordsRB}"
-                     Margin="10" Text="{Binding Latitude}"></TextBox>
+                     Margin="10" Text="{Binding Latitude, UpdateSourceTrigger=PropertyChanged}"></TextBox>
             <Label Margin="10,0,10,0">Longitude:</Label>
             <TextBox IsEnabled="{Binding IsChecked, ElementName=ByCityCoordsRB}"
-                Margin="10" Text="{Binding Longitude}"></TextBox>
+                Margin="10" Text="{Binding Longitude, UpdateSourceTrigger=PropertyChanged}"></TextBox>
         </StackPanel>
-
-        <Grid Grid.Row="2"> 
+        <m:Map 
+               x:Name="Map"
+               MouseRightButtonDown="Map_MouseRightButtonDown"
+               IsEnabled="{Binding IsCityCoordsRBChecked}"
+               Grid.Row="2"
+               CredentialsProvider="ArelkvT2n8K99rcr96g1f1MCoRcsn9JLWH-_IXERj00envdU022utN_b15yZZBiw"
+               Margin="5, 10"
+               >
+            <m:Pushpin Location="{Binding Location, UpdateSourceTrigger=PropertyChanged}"/>
+        </m:Map> 
+        <Grid Grid.Row="3"> 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
             <Button Grid.Column="0"                   
-                    Margin="20" Command="{Binding AddCityCommand}">ADD</Button>
+                    Margin="20" Command="{Binding AddCityCommand}">Add</Button>
             <Button Grid.Column="1"                   
-                    Margin="20">Cancel</Button>
+                    Margin="20" Command="{Binding CancelCommand}">Cancel</Button>
         </Grid>
     </Grid>
 </UserControl>

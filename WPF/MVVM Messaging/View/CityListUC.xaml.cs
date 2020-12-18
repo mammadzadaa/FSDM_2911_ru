@@ -22,7 +22,6 @@ namespace MVVM_Messaging.View
         public CityListUC()
         {
             InitializeComponent();
-            DataContext = App.container.GetInstance<CityListVM>();
         }
     }
 }

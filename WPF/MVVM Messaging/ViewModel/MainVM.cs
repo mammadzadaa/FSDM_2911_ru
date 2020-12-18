@@ -19,7 +19,7 @@ namespace MVVM_Messaging.ViewModel
         {
 
             IMessenger messanger = App.container.GetInstance<Messenger>();
-                CurrentView = new CityListVM();
+            CurrentView = App.container.GetInstance<CityListVM>();
             messanger.Register<NavigationMessage>(this, message =>
              {
                  CurrentView = message.ViewModel;

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Maps.MapControl.WPF/1.0.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net40-Client/Microsoft.Maps.MapControl.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/Microsoft.Maps.MapControl.WPF.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.0.1": {
         "type": "package",
         "compile": {
@@ -20,6 +29,18 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "MvvmLightLibsStd10/5.4.1.1": {
         "type": "package",
         "compile": {
@@ -29,7 +50,7 @@
           "lib/netstandard1.0/GalaSoft.MvvmLight.dll": {}
         }
       },
-      "SimpleInjector/5.1.0": {
+      "SimpleInjector/5.2.0": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel": "4.0.1"
@@ -66,6 +87,19 @@
     }
   },
   "libraries": {
+    "Microsoft.Maps.MapControl.WPF/1.0.0.3": {
+      "sha512": "P5Xys9PH/NIZY8qPASd03VOrZ/eXyS1hSoruR7oM+Otn98DkvUD1LwO8m9Aro4/5jCU1BgRmOTJrIQm5y9UHnQ==",
+      "type": "package",
+      "path": "microsoft.maps.mapcontrol.wpf/1.0.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40-Client/Microsoft.Maps.MapControl.WPF.dll",
+        "lib/net40-Client/Microsoft.Maps.MapControl.WPF.xml",
+        "microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512",
+        "microsoft.maps.mapcontrol.wpf.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.0.1": {
       "sha512": "2G6OjjJzwBfNOO8myRV/nFrbTw5iA+DEm0N+qUqhrOmaVtn4pC77h38I1jsXGw5VH55+dPfQsqHD0We9sCl9FQ==",
       "type": "package",
@@ -93,6 +127,27 @@
         "microsoft.netcore.targets.1.0.1.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+      "sha512": "5sPWkbqImc2t1aQwIfJcKsUo7tOg1Tr8+6xVzZJB56Nzt4u9NlpcLofgdX/aRYpPKdWDA3U23Akw1KQzU5e82g==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.19",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.dll",
+        "lib/net45/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net45/Microsoft.Xaml.Behaviors.xml",
+        "lib/netcoreapp3.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
       ]
     },
     "MvvmLightLibsStd10/5.4.1.1": {
@@ -134,10 +189,10 @@
         "mvvmlightlibsstd10.nuspec"
       ]
     },
-    "SimpleInjector/5.1.0": {
-      "sha512": "y3Mo3pvKgLCU4cK1Q7OqSgQfArmILjS3CxPAgx0xl5cbDzG34jYu7vfCkQjj61tYtOQ/3Gc3WGVGMj6jCFChQg==",
+    "SimpleInjector/5.2.0": {
+      "sha512": "c9ff5vallE4GO5OoDX5FL99pcxbx4HDI5O7aPnnxaom9SwaEHXZA0yvoRhzkUAmnvKxBwpv2GtVWlf5gSAoQrw==",
       "type": "package",
-      "path": "simpleinjector/5.1.0",
+      "path": "simpleinjector/5.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -153,7 +208,7 @@
         "lib/netstandard2.0/SimpleInjector.xml",
         "lib/netstandard2.1/SimpleInjector.dll",
         "lib/netstandard2.1/SimpleInjector.xml",
-        "simpleinjector.5.1.0.nupkg.sha512",
+        "simpleinjector.5.2.0.nupkg.sha512",
         "simpleinjector.nuspec",
         "simpleinjector.png"
       ]
@@ -311,8 +366,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Microsoft.Maps.MapControl.WPF >= 1.0.0.3",
+      "Microsoft.Xaml.Behaviors.Wpf >= 1.1.19",
       "MvvmLightLibsStd10 >= 5.4.1.1",
-      "SimpleInjector >= 5.1.0"
+      "SimpleInjector >= 5.2.0"
     ]
   },
   "packageFolders": {
@@ -356,13 +413,21 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Microsoft.Maps.MapControl.WPF": {
+            "target": "Package",
+            "version": "[1.0.0.3, )"
+          },
+          "Microsoft.Xaml.Behaviors.Wpf": {
+            "target": "Package",
+            "version": "[1.1.19, )"
+          },
           "MvvmLightLibsStd10": {
             "target": "Package",
             "version": "[5.4.1.1, )"
           },
           "SimpleInjector": {
             "target": "Package",
-            "version": "[5.1.0, )"
+            "version": "[5.2.0, )"
           }
         },
         "imports": [
@@ -386,5 +451,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Maps.MapControl.WPF 1.0.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Maps.MapControl.WPF",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

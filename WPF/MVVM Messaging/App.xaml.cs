@@ -23,14 +23,15 @@ namespace MVVM_Messaging
         {
             container = new Container();
 
-            container.Register<CityListVM>();
-            container.Register<AddCityVM>();
-            container.Register<CityInfoVM>();
+            container.RegisterSingleton<CityListVM>();
+            container.RegisterSingleton<AddCityVM>();
+            container.RegisterSingleton<CityInfoVM>();
 
             container.RegisterSingleton<MainVM>();
-            container.Register<MainWindow>();
+            container.RegisterSingleton<MainWindow>();
             container.RegisterSingleton<Messenger>();
-
+            container.RegisterSingleton<DefaultWeatherAPIService>();
+            container.RegisterSingleton<LocalCityStorage>();
             container.Verify();
 
             var main = container.GetInstance<MainWindow>();

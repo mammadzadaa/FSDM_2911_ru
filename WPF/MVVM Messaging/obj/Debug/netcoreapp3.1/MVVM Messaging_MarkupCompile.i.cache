@@ -1,5 +1,5 @@
 ﻿MVVM Messaging
-
+1.0.0.0
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\App.xaml
 4924459349
 
-24-826826787
+261049938052
 196200225229
 MainWindow.xaml;View\AddCityUC.xaml;View\CityInfoUC.xaml;View\CityListUC.xaml;
 
-False
+True
 

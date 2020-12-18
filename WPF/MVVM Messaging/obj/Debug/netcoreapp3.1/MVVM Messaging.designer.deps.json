@@ -6,8 +6,24 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Maps.MapControl.WPF/1.0.0.3": {
+        "runtime": {
+          "lib/net40-Client/Microsoft.Maps.MapControl.WPF.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.0.1": {},
       "Microsoft.NETCore.Targets/1.0.1": {},
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.19.35512"
+          }
+        }
+      },
       "MvvmLightLibsStd10/5.4.1.1": {
         "runtime": {
           "lib/netstandard1.0/GalaSoft.MvvmLight.dll": {
@@ -16,7 +32,7 @@
           }
         }
       },
-      "SimpleInjector/5.1.0": {
+      "SimpleInjector/5.2.0": {
         "dependencies": {
           "System.ComponentModel": "4.0.1"
         },
@@ -47,6 +63,13 @@
     }
   },
   "libraries": {
+    "Microsoft.Maps.MapControl.WPF/1.0.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P5Xys9PH/NIZY8qPASd03VOrZ/eXyS1hSoruR7oM+Otn98DkvUD1LwO8m9Aro4/5jCU1BgRmOTJrIQm5y9UHnQ==",
+      "path": "microsoft.maps.mapcontrol.wpf/1.0.0.3",
+      "hashPath": "microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.0.1": {
       "type": "package",
       "serviceable": true,
@@ -61,6 +84,13 @@
       "path": "microsoft.netcore.targets/1.0.1",
       "hashPath": "microsoft.netcore.targets.1.0.1.nupkg.sha512"
     },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5sPWkbqImc2t1aQwIfJcKsUo7tOg1Tr8+6xVzZJB56Nzt4u9NlpcLofgdX/aRYpPKdWDA3U23Akw1KQzU5e82g==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.19",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512"
+    },
     "MvvmLightLibsStd10/5.4.1.1": {
       "type": "package",
       "serviceable": true,
@@ -68,12 +98,12 @@
       "path": "mvvmlightlibsstd10/5.4.1.1",
       "hashPath": "mvvmlightlibsstd10.5.4.1.1.nupkg.sha512"
     },
-    "SimpleInjector/5.1.0": {
+    "SimpleInjector/5.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-y3Mo3pvKgLCU4cK1Q7OqSgQfArmILjS3CxPAgx0xl5cbDzG34jYu7vfCkQjj61tYtOQ/3Gc3WGVGMj6jCFChQg==",
-      "path": "simpleinjector/5.1.0",
-      "hashPath": "simpleinjector.5.1.0.nupkg.sha512"
+      "sha512": "sha512-c9ff5vallE4GO5OoDX5FL99pcxbx4HDI5O7aPnnxaom9SwaEHXZA0yvoRhzkUAmnvKxBwpv2GtVWlf5gSAoQrw==",
+      "path": "simpleinjector/5.2.0",
+      "hashPath": "simpleinjector.5.2.0.nupkg.sha512"
     },
     "System.ComponentModel/4.0.1": {
       "type": "package",

@@ -4,13 +4,40 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MVVM_Messaging.View"
+             xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="400">
-    <DockPanel LastChildFill="False">
-        <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center">
-            Info about City</TextBlock>
-        <StackPanel DockPanel.Dock="Bottom" Orientation="Vertical">
-            <Button>Back</Button>
+             d:DesignHeight="450" d:DesignWidth="400"
+             d:Background="Wheat">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Image Source="{Binding ImageSrc}"/>
+        <StackPanel Grid.Column="1" VerticalAlignment="Center">
+            <TextBlock TextAlignment="Center" Text="{Binding CityName}" />
+            <TextBlock TextAlignment="Center" Text="{Binding Temp}" />
+            <TextBlock TextAlignment="Center" Text="{Binding Description}" />
+            <TextBlock TextAlignment="Center" Text="{Binding FeelsLike}" />
         </StackPanel>
-    </DockPanel>
+        <m:Map 
+            CredentialsProvider="ArelkvT2n8K99rcr96g1f1MCoRcsn9JLWH-_IXERj00envdU022utN_b15yZZBiw"
+            Grid.Row="1" 
+            Grid.ColumnSpan="2"
+            Margin="5">
+            <m:Pushpin Location="{Binding Location}"/>
+        </m:Map>
+        <Button
+            Margin="3"
+            Grid.ColumnSpan="2" 
+            Grid.Row="2" 
+            Content="Back" 
+            Command="{Binding BackCommand}"/>
+    </Grid>
+ 
 </UserControl>

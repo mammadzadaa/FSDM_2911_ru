@@ -4,18 +4,34 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MVVM_Messaging.View"
+             xmlns:b ="http://schemas.microsoft.com/xaml/behaviors"
              mc:Ignorable="d" 
              d:Background="White"
              d:DesignHeight="450" d:DesignWidth="400">
+    <UserControl.Resources>
+        <DataTemplate x:Key="CityItem">
+            <StackPanel>
+                <TextBlock Text="{Binding main.temp, StringFormat=Temp: {0}C}"/>
+                <TextBlock Text="{Binding name, StringFormat=City: {0}}" />
+            </StackPanel>
+        </DataTemplate>
+    </UserControl.Resources>
     <DockPanel LastChildFill="False">
         <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center">List of Cities</TextBlock>
         <StackPanel DockPanel.Dock="Bottom" Orientation="Vertical">
             <Button Command="{Binding AddCity}">Add</Button>
-            <Button>View</Button>
+            <Button Command="{Binding ViewCity}">View</Button>
         </StackPanel>
-        <StackPanel Margin="20">
-            <TextBlock Text="{Binding Temp, StringFormat=Temp: {0}C}"/>
-            <TextBlock Text="{Binding CityName, StringFormat=City: {0}}" />
-        </StackPanel>
+        <ListBox      
+            SelectedItem="{Binding SelectedWeatherItem}" 
+            DockPanel.Dock="Top" 
+            ItemTemplate="{StaticResource CityItem}" 
+            ItemsSource="{Binding Cities}">
+            <b:Interaction.Triggers>
+                <b:EventTrigger EventName="MouseDoubleClick">
+                    <b:InvokeCommandAction Command="{Binding DoubleClickCommand}"/>
+                </b:EventTrigger>
+            </b:Interaction.Triggers>
+        </ListBox>
     </DockPanel>
 </UserControl>

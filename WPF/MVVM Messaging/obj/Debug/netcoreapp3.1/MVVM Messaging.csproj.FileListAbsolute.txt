@@ -4,7 +4,6 @@ C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\MVVM Mess
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\MVVM Messaging.runtimeconfig.dev.json
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\MVVM Messaging.dll
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\MVVM Messaging.pdb
-C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Messaging.csprojAssemblyReference.cache
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\View\AddCityUC.g.cs
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\View\CityInfoUC.g.cs
@@ -26,5 +25,8 @@ C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Mess
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\SimpleInjector.dll
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Messaging.csproj.CopyComplete
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.dll
-C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Messaging.csproj.CoreCompileInputs.cache
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\MVVM Messaging.dll.config
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Messaging.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\Microsoft.Maps.MapControl.WPF.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Messaging.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
