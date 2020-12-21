@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KU6cOfChRKYRtlfg9PJLiPSw6BHbFVgmvc1U4A6gy8qTsvd9ro/XCwcZFliUZ3yXg1vHUCYn+YUKlS8zLHTThw==",
+  "success": true,
+  "projectFilePath": "C:\\Qt\\Projects\\FSDM_2911_ru\\WPF\\Validation\\Validation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aqil\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

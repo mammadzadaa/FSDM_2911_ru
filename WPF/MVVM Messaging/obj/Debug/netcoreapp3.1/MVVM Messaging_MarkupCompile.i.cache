@@ -8,13 +8,13 @@ C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\
 MVVM_Messaging
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\App.xaml
 4924459349
 
 261049938052
-196200225229
+197940434701
 MainWindow.xaml;View\AddCityUC.xaml;View\CityInfoUC.xaml;View\CityListUC.xaml;
 
-True
+False
 

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fuP5pu3qjeQUi3OiQsEixKSkJCgwICAzRzWfqq6l7reUmXd0HSWko5R1VY57jgfD4/mFmGdvTIvD1LQLE15DDw==",
+  "dgSpecHash": "EXNXRM/gHXqH/SYd9Whu9/wY1cwEC/Kdvl2/if/4aXbdwpXkta+7EocHjCLdhbkLG7p4cKgmY13WmC6/q8aRFw==",
   "success": true,
   "projectFilePath": "C:\\Qt\\Projects\\FSDM_2911_ru\\WPF\\MVVM Messaging\\MVVM Messaging.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Aqil\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\Aqil\\.nuget\\packages\\microsoft.maps.mapcontrol.wpf\\1.0.0.3\\microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",

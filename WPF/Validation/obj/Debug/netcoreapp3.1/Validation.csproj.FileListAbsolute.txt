@@ -1,0 +1,15 @@
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\bin\Debug\netcoreapp3.1\Validation.exe
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\bin\Debug\netcoreapp3.1\Validation.deps.json
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\bin\Debug\netcoreapp3.1\Validation.runtimeconfig.json
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\bin\Debug\netcoreapp3.1\Validation.runtimeconfig.dev.json
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\bin\Debug\netcoreapp3.1\Validation.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\bin\Debug\netcoreapp3.1\Validation.pdb
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\obj\Debug\netcoreapp3.1\Validation.csprojAssemblyReference.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\obj\Debug\netcoreapp3.1\Validation.AssemblyInfoInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\obj\Debug\netcoreapp3.1\Validation.AssemblyInfo.cs
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\obj\Debug\netcoreapp3.1\Validation.csproj.CoreCompileInputs.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\obj\Debug\netcoreapp3.1\Validation.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\obj\Debug\netcoreapp3.1\Validation.pdb
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\obj\Debug\netcoreapp3.1\Validation.genruntimeconfig.cache
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\Validation\obj\Debug\netcoreapp3.1\Validation.csproj.CopyComplete

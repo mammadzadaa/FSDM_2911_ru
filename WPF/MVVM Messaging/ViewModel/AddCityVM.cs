@@ -7,12 +7,15 @@ using MVVM_Messaging.Model;
 using MVVM_Messaging.Services;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Text;
 using System.Windows;
 
 namespace MVVM_Messaging.ViewModel
 {
-    public class AddCityVM : ViewModelBase
+    public class AddCityVM : ViewModelBase, IDataErrorInfo
     {
         public AddCityVM()
         {
@@ -30,9 +33,14 @@ namespace MVVM_Messaging.ViewModel
         private ICityStorage cityStorage;
         private IMessenger messenger;
         private string cityName;
+        [Required]
         public string CityName { 
-            get => cityName; 
-            set => Set(ref cityName, value); 
+            get => cityName;
+            set
+            {
+                Set(ref cityName, value);
+                AddCityCommand.RaiseCanExecuteChanged();
+            }
         }
         private string longitude;
         public string Longitude { 
@@ -40,10 +48,11 @@ namespace MVVM_Messaging.ViewModel
             set
             { 
                 Set(ref longitude, value);
-                if (!string.IsNullOrWhiteSpace(Latitude))
+                if (!string.IsNullOrWhiteSpace(Latitude) && double.TryParse(Latitude, out double lat) && double.TryParse(Longitude, out double lon))
                 {
-                    Location = new Location(double.Parse(Latitude),double.Parse(Longitude));
+                    Location = new Location(lat, lon);
                 }
+                AddCityCommand.RaiseCanExecuteChanged();
             }
 
         }
@@ -55,10 +64,11 @@ namespace MVVM_Messaging.ViewModel
             set 
             { 
                 Set(ref latitude, value);
-                if (!string.IsNullOrWhiteSpace(Longitude))
+                if (!string.IsNullOrWhiteSpace(Longitude) && double.TryParse(Latitude, out double lat) && double.TryParse(Longitude, out double lon))
                 {
-                    Location = new Location(double.Parse(Latitude), double.Parse(Longitude));
+                    Location = new Location(lat, lon);
                 }
+                AddCityCommand.RaiseCanExecuteChanged();
             }
         }
         private bool isCityCoordsRBChecked;
@@ -71,6 +81,7 @@ namespace MVVM_Messaging.ViewModel
             set
             {
                 Set(ref isCityCoordsRBChecked, value);
+                AddCityCommand.RaiseCanExecuteChanged();
             }
         }
         private bool isCityRBChecked = true;
@@ -83,6 +94,7 @@ namespace MVVM_Messaging.ViewModel
             set
             {
                 Set(ref isCityRBChecked, value);
+                AddCityCommand.RaiseCanExecuteChanged();
             }
         }
         private RelayCommand cancelCommand;
@@ -130,7 +142,41 @@ namespace MVVM_Messaging.ViewModel
                         cityStorage.AddCity(result);
                         messenger.Send(new NavigationMessage() { ViewModel = App.container.GetInstance<CityListVM>() });
                     }
+                }, () => {
+                    if (IsCityRBChecked && !string.IsNullOrWhiteSpace(CityName))
+                    {
+                        return true;
+                    }
+                    if (IsCityCoordsRBChecked && double.TryParse(Latitude, out double _) && double.TryParse(Longitude, out double __))
+                    {
+                        return true;
+                    }
+                    return false;
                 });
+            }
+        }
+
+        public string Error { get; }
+        public string this[string columnName]
+        {
+            get
+            {
+                var context = new ValidationContext(this);
+                var results = new List<ValidationResult>();
+                var isValid = Validator.TryValidateObject(this, context, results, true);
+
+                if (isValid)
+                {
+                    return string.Empty;
+                }
+
+                var result = results.FirstOrDefault(x => x.MemberNames.Contains(columnName));
+
+                if (result is null)
+                {
+                    return string.Empty;
+                }
+                return result.ErrorMessage;
             }
         }
     }
