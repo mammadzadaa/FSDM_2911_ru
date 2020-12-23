@@ -22,7 +22,16 @@ namespace MVVM_Messaging
         protected override void OnStartup(StartupEventArgs e)
         {
             container = new Container();
+            Register();
 
+            var main = container.GetInstance<MainWindow>();
+            main.Show();
+
+            base.OnStartup(e);
+        }  
+        
+        private void Register()
+        {
             container.RegisterSingleton<CityListVM>();
             container.RegisterSingleton<AddCityVM>();
             container.RegisterSingleton<CityInfoVM>();
@@ -33,11 +42,6 @@ namespace MVVM_Messaging
             container.RegisterSingleton<DefaultWeatherAPIService>();
             container.RegisterSingleton<LocalCityStorage>();
             container.Verify();
-
-            var main = container.GetInstance<MainWindow>();
-            main.Show();
-
-            base.OnStartup(e);
-        }        
+        }
     }
 }

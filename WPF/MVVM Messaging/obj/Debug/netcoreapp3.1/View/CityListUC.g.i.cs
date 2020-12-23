@@ -58,7 +58,7 @@ namespace MVVM_Messaging.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MVVM Messaging;V1.0.0.0;component/view/citylistuc.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MVVM Messaging;component/view/citylistuc.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\CityListUC.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

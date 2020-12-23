@@ -21,7 +21,7 @@ namespace MVVM_Messaging.ViewModel
             });
         }
         public string ImageSrc => $"http://openweathermap.org/img/wn/{currentForecast.weather[0].icon}.png";
-        private Forecast currentForecast;
+        protected Forecast currentForecast;
         private Messenger messenger;
         public string CityName => currentForecast.name;
         public string Temp => currentForecast.main.temp.ToString();
@@ -34,6 +34,22 @@ namespace MVVM_Messaging.ViewModel
         {
             messenger.Send(new NavigationMessage() { ViewModel = App.container.GetInstance<CityListVM>() });
         });
+
+    }
+
+    class TestCityInfoVM 
+    {
+
+            Forecast currentForecast = new Forecast()
+            {
+                main = new Main() { temp = 12 },
+                name = "Baku"
+            };
+        public string CityName => currentForecast.name;
+        public string Temp => currentForecast.main.temp.ToString();
+        public string Description => currentForecast.weather[0].description;
+        public string FeelsLike => currentForecast.main.feels_like.ToString();
+        public Location Location => new Location(currentForecast.coord.lat, currentForecast.coord.lon);
 
     }
 }

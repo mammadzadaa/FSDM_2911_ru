@@ -26,7 +26,7 @@ C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\SimpleInj
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Messaging.csproj.CopyComplete
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\GalaSoft.MvvmLight.dll
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\MVVM Messaging.dll.config
-C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Messaging.csprojAssemblyReference.cache
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\Microsoft.Maps.MapControl.WPF.dll
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\obj\Debug\netcoreapp3.1\MVVM Messaging.csproj.CoreCompileInputs.cache
 C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\Microsoft.Xaml.Behaviors.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\MVVM Messaging\bin\Debug\netcoreapp3.1\FluentValidation.dll

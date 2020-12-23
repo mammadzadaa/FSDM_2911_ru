@@ -4,8 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MVVM_Messaging.View"
+             xmlns:viewModel="clr-namespace:MVVM_Messaging.ViewModel"
              xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
              mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance Type=viewModel:TestCityInfoVM, IsDesignTimeCreatable=True}"
              d:DesignHeight="450" d:DesignWidth="400"
              d:Background="Wheat">
     <Grid>
