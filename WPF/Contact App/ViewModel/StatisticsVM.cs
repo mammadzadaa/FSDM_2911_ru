@@ -7,10 +7,10 @@ namespace Contact_App.ViewModel
 {
     class StatisticsVM : ViewModelBase
     {
-        private string numberOfContacts;
+        private double numberOfContacts;
         private string favoriteContacts;
 
-        public string NumberOfContacts
+        public double NumberOfContacts
         {
             get => numberOfContacts;
             set => Set(ref numberOfContacts, value);

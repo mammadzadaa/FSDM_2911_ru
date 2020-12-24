@@ -26,3 +26,6 @@ C:\Qt\Projects\FSDM_2911_ru\WPF\Contact App\obj\Debug\netcoreapp3.1\Controls\Das
 C:\Qt\Projects\FSDM_2911_ru\WPF\Contact App\obj\Debug\netcoreapp3.1\Controls\DashboardTile.baml
 C:\Qt\Projects\FSDM_2911_ru\WPF\Contact App\obj\Debug\netcoreapp3.1\View\AddContactUserControl.g.cs
 C:\Qt\Projects\FSDM_2911_ru\WPF\Contact App\obj\Debug\netcoreapp3.1\View\StatisticsUserControl.g.cs
+C:\Qt\Projects\FSDM_2911_ru\WPF\Contact App\bin\Debug\netcoreapp3.1\SimpleInjector.dll
+C:\Qt\Projects\FSDM_2911_ru\WPF\Contact App\obj\Debug\netcoreapp3.1\View\AddContactUserControl.baml
+C:\Qt\Projects\FSDM_2911_ru\WPF\Contact App\obj\Debug\netcoreapp3.1\View\StatisticsUserControl.baml

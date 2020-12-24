@@ -30,7 +30,7 @@
     <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
         <StackPanel>
             <TextBlock FontWeight="Bold" Text="{Binding Header, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
-            <TextBlock  Text="{Binding Value, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
+            <TextBlock Text="{Binding Value, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
         </StackPanel>
     </Grid>
 </UserControl>

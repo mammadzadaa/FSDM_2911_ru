@@ -30,20 +30,22 @@ namespace Contact_App.Controls
             nameof(Header),
             typeof(string),
             typeof(DashboardTile),
-            new FrameworkPropertyMetadata("",FrameworkPropertyMetadataOptions.BindsTwoWayByDefault)
+            new FrameworkPropertyMetadata("", FrameworkPropertyMetadataOptions.BindsTwoWayByDefault)
             );
 
-        public string Value {
-            get => GetValue(ValueProperty) as string;
-            set => SetValue(ValueProperty, value);
+        public double Value 
+        {
+            get => (double)GetValue(ValueProperty); 
+            set => SetValue(ValueProperty, value); 
         }
 
         public static readonly DependencyProperty ValueProperty = DependencyProperty.Register(
-          nameof(Value),
-          typeof(string),
-          typeof(DashboardTile),
-          new FrameworkPropertyMetadata("", FrameworkPropertyMetadataOptions.BindsTwoWayByDefault)
-          );
+            nameof(Value),
+            typeof(double),
+            typeof(DashboardTile),
+            new FrameworkPropertyMetadata(0.0, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault)
+            );
+        private double value;
 
         public DashboardTile()
         {

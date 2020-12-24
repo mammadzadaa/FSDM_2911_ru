@@ -1,4 +1,5 @@
 ﻿using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,5 +15,10 @@ namespace Contact_App.ViewModel
         {
             CurrentViewModel = new ContactListVM();
         }
-    }
+        private RelayCommand addContactCommand;
+        public RelayCommand AddContactCommand => addContactCommand ??= new RelayCommand(() =>
+        {
+            CurrentViewModel = new AddContactVM();
+        });
+    }  
 }

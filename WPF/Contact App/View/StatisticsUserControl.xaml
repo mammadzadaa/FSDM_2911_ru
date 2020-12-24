@@ -15,10 +15,7 @@
         </Grid.RowDefinitions>
 
         <t:DashboardTile Margin="20"
-                         Header="Number Of Contacts " 
-                         Value="{Binding NumberOfContacts}"></t:DashboardTile>
-        <t:DashboardTile Grid.Row="1" Margin="20"
-                         Header="Favorite Contacts " 
-                         Value="{Binding FavoriteContacts}"></t:DashboardTile>
+                         Header="Number Of Contacts"
+                         Value="{Binding NumberOfContacts}"/>
     </Grid>
 </UserControl>

@@ -16,19 +16,19 @@
 
         <StackPanel>
             <Label Margin="0,10,0,0">Name</Label>
-            <TextBox></TextBox>
+            <TextBox Text="{Binding Name}"></TextBox>
             <Label></Label>
             <Label Margin="0,10,0,0">Phone</Label>
-            <TextBox></TextBox>
+            <TextBox Text="{Binding Phone}"></TextBox>
             <Label></Label>
             <Label Margin="0,10,0,0">Email</Label>
-            <TextBox></TextBox>
+            <TextBox Text="{Binding Email}"></TextBox>
             <Label></Label>
             <Label Margin="0,10,0,0">Bio</Label>
-            <TextBox></TextBox>
+            <TextBox Text="{Binding Bio}"></TextBox>
             <Label></Label>
-            <Label Margin="0,10,0,0">Image</Label>
-            <TextBox></TextBox>
+            <Label Margin="0,10,0,0">Photo Url</Label>
+            <TextBox Text="{Binding PhotoUrl}"></TextBox>
             <Label></Label>
         </StackPanel>
         <Grid Grid.Row="1">
@@ -37,9 +37,11 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Button Grid.Column="0"
-                    Margin="25">Add</Button>
+                    Margin="25" 
+                    Command="{Binding AddContactCommand}">Add</Button>
             <Button Grid.Column="1"
-                     Margin="25">Close</Button>
+                     Margin="25"
+                    Command="{Binding CancelCommand}">Close</Button>
         </Grid>
     </Grid>
 </UserControl>

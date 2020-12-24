@@ -13,20 +13,21 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <TextBox></TextBox>
         <TextBox Text="{Binding Text, UpdateSourceTrigger=PropertyChanged}" Grid.Row="1"/>
         <DataGrid Grid.Row="2" ItemsSource="{Binding Contacts}" 
                   AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Binding="{Binding Name}" Header="Name"/>
-                <DataGridTextColumn Binding="{Binding Number}" Header="Phone"/>
-                <DataGridCheckBoxColumn Binding="{Binding Favorite}" Header="Is Favorite"/>
+                <DataGridTextColumn Binding="{Binding FullName}" Header="Name"/>
+                <DataGridTextColumn Binding="{Binding Phone}" Header="Phone"/>
+                <DataGridTextColumn Binding="{Binding Email}" Header="Phone"/>
             </DataGrid.Columns>
             <DataGrid.RowDetailsTemplate>
                 <DataTemplate>
-                    <TextBlock Margin="10" Text="{Binding Position}"/>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{Binding Photo}" />
+                        <TextBlock Text="{Binding Bio}" TextWrapping="Wrap" MaxWidth="300"/>
+                    </StackPanel>
                 </DataTemplate>
             </DataGrid.RowDetailsTemplate>
         </DataGrid>

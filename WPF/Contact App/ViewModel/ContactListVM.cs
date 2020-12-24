@@ -1,4 +1,5 @@
 ﻿using Contact_App.Model;
+using Contact_App.Services;
 using GalaSoft.MvvmLight;
 using System;
 using System.Collections.Generic;
@@ -9,34 +10,18 @@ namespace Contact_App.ViewModel
     class ContactListVM : ViewModelBase
     {
         private string text;
+        public IUserDataReader DataReader { get; }
+        public IEnumerable<Contact> Contacts { get; set; }
 
-        public List<Contact> Contacts { get; set; } = new List<Contact>();
-
-        public string Text { get => text; set => Set(ref text, value); }
+        public string Text {
+            get => text;
+            set => Set(ref text, value);
+        }
 
         public ContactListVM()
         {
-            Contacts.Add(new Contact()
-            {
-                Name = "Aftandil",
-                Number = "09932131",
-                Position = "Boss",
-                Favorite = true
-            });
-            Contacts.Add(new Contact()
-            {
-                Name = "Israfil",
-                Number = "09932343131",
-                Position = "employee",
-                Favorite = false
-            });
-            Contacts.Add(new Contact()
-            {
-                Name = "Gulchohre",
-                Number = "09342432",
-                Position = "employee",
-                Favorite = true
-            });
+            DataReader = new UserDataReader();
+            Contacts = DataReader.Read("Contacts.json");
         }
     }
 }
